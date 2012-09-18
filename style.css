@@ -1,15 +1,15 @@
 /*
-Theme Name: Blank Child Theme
+Theme Name: Shop Child Theme
 Theme URI: http://groupbuyingsite.com
 Description: This theme will be identical to the Shop Theme until you add modifications.
 Author: Group Buying Site
 Author URI: http://groupbuyingsite.com
 Version: 1.0
-template: shop-theme
+template: shop
 */
 
 /* Do not delete this @import unless you're planning on restyling everything from scratch. */
-@import url("../shop-theme/style.css");
+@import url("../shop/style.css");
 /* @import end */
 /* 
 Add your custom styles below:
