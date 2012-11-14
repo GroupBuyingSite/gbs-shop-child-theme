@@ -16,7 +16,7 @@ function gb_redirect_from_home() {
 
 	if ( !is_user_logged_in() && gb_force_login_option() != 'false' ) {
 		if (
-			( is_home() && 'subscriptions' == gb_force_login_option() ) ||
+			( ( is_home() || is_front_page() ) && 'subscriptions' == gb_force_login_option() ) ||
 			gb_on_login_page() ||
 			gb_on_reset_password_page() ) {
 			return;
